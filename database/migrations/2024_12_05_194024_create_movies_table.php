@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->unsignedBigInteger('state_id')->nullable();
-            $table->string('poster_path')->nullable();
+            $table->string('poster_path')->default('https://pin.it/4rTBkUTox');
 
             $table->timestamps();
 

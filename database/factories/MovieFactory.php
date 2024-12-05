@@ -22,10 +22,8 @@ class MovieFactory extends Factory
             'https://pin.it/4rTBkUTox',
             'https://pin.it/3IQda5EeN',
             'https://pin.it/6gxYgB2q2',
-            'https://pin.it/7A1KkkgjV',
             'https://pin.it/5jhsPmrNe',
             'https://pin.it/7K7HxD2AD',
-            null
         ]);
 
         return [
