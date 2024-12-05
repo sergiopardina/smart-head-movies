@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('genre_movie_pivots', function (Blueprint $table) {
             $table->id();
-            $table->integer('genre_id')->nullable();
-            $table->integer('movie_id')->nullable();
+            $table->unsignedBigInteger('genre_id')->nullable();
+            $table->unsignedBigInteger('movie_id')->nullable();
 
             $table->timestamps();
 

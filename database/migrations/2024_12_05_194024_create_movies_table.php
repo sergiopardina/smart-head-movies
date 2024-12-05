@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('movies', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->integer('state_id')->nullable();
+            $table->unsignedBigInteger('state_id')->nullable();
             $table->string('poster_path')->nullable();
 
             $table->timestamps();
